@@ -223,12 +223,4 @@ if __name__ == "__main__":
     # pattern_4()
     # pattern_5()
     # pattern_6()
-# pattern_6()
-# pattern_6()
-# pattern_6()
-# pattern_6()
-# pattern_6()
-# pattern_6()# pattern_6()
-# pattern_6()
-# pattern_6()
     pass
