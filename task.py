@@ -226,5 +226,9 @@ if __name__ == "__main__":
 # pattern_6()
 # pattern_6()
 # pattern_6()
-
+# pattern_6()
+# pattern_6()
+# pattern_6()# pattern_6()
+# pattern_6()
+# pattern_6()
     pass
