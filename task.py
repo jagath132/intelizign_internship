@@ -88,6 +88,13 @@ def square():
         number[i] =i*i
     print("the square of first 10 numbers:",number)
 
+# 12. Input:a2b3c5 Output:aabbbccccc
+def repeat():
+    input_str = input("enter the input:")
+    output_str = " "
+    for i in range(0,len(input_str),2):
+        output_str += input_str[i] * int(input_str[i + 1])
+    print(output_str)
 
 # 13.convert Input sentence into list of words.
 def sen_split():
@@ -215,6 +222,7 @@ if __name__ == "__main__":
     # square()
     # second_value()
     # get_players()
+    repeat()
     # sen_split()
     # sen_join()
     # pattern_1()
