@@ -212,6 +212,18 @@ def get_players():
             output[a["game"]] = [a["name"]]
     print(output)
 
+# 19.Python Program to Calculate the Number of Words and the Number of Characters Present in a String
+# Eg: 'Hello this is btechgeeks'
+# Output: word_count = 4, character_count=24
+
+def count():
+    demo_string=input("Enter string:")
+
+    string = len(demo_string.split())
+    print("The number of words_count in string are : " + str(string))
+    print("The number of character_count in string are : ", len(demo_string))
+
+
 # function calling stmt
 if __name__ == "__main__":
     # name_extraced()
@@ -222,9 +234,10 @@ if __name__ == "__main__":
     # square()
     # second_value()
     # get_players()
-    repeat()
+    # repeat()
     # sen_split()
     # sen_join()
+    # count()
     # pattern_1()
     # pattern_2()
     # pattern_3()
